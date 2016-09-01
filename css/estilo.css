@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{text-decoration: none}
+label{cursor: pointer}
+ 
+
+body{background: #eee url(images/noise-all.png); font-family: Arial, Helvetica, sans-serif; font-size:  14px}
+.bodyFrm{}
+.home{}
+.layoutvalidopelaw3c{position: fixed; right: -51px; top: 50%;; margin-top: -15px}
+.layoutvalidopelaw3c:hover{right: 0; }
+.layoutvalidopelaw3c img:hover{-moz-opacity: 0.75;  -webkit-opacity: 0.75; opacity:0.75; }
+.main{position: relative; margin: 0 auto; box-shadow: 0 -3px 4px #999; width: 960px; }
+
+.header{top: 0; left: 0; background:#333 url(images/pattern.png); height:45px;position:fixed;z-index:99; width:100%; padding-left:0px;color:#FFF; border-bottom: 3px solid #EEAA30;}
+.header > p{margin-top: 7px;margin-left: 23px;text-shadow: 1px 2px 3px #ff9;}
+.header p a{color: #fff; font-size: 29px}
+.header img {border:none; height:45px; margin-left:10px;position:relative;}
+
+#cab1 { background:#444 url(images/noise-all.png); border-top:1px groove #666; padding-top:9px;
+text-align:center; display: none; margin-top: 90px}
+#cab1 h2{font-size: 18px; color: #fff}
+#cab1 img{height: 90px}
+.imgBanner{width: 960px}
+#welcome{}
+#welcome h2 span{margin-top: 21px;position: relative;margin-left: 0;float: left;padding-left: 352px;}
+
+.content{background: #fff}
+
+#galeria ul li img{width: 960px}
+
+.menus{clear: both;position:relative;width:100%; height:30px; margin-top:-2px;background:#444 url(images/noise-all.png); border-bottom: 1px solid #eee; }
+
+.menus ul li{display: inline; float: left; font-size: 16px; line-height: 30px; text-align: center; width: 191px;}
+.menus ul > li{ border-right: 1px solid #333;}
+.menus ul > li:hover{ background: #555  }
+.menus ul li a { color: #fff; display: block }
+
+.menus ul > li:hover ul{ display: block; background: #555; height: 30px;position: absolute; z-index: 9}
+.menus ul li ul li{ border-bottom: 1px solid #444}
+.menus ul li ul{ display: none;}
+
+
+#hiddens div{display: none; min-height: 500px; padding-top: 20px; padding-left: 17px}
+#hiddens div p{line-height: 25px;margin-right: 46px;}
+#hiddens div h2{font-size: 18px;}
+
+#contato {}
+#contato td{ width: 161px;height: 38px;}
+#contato input[type='text']{width: 232px;}
+
+#parceiros{margin-top: -252px;}
+#parceiros td{width: 318px; text-align: center}
+#parceiros img{width: 170px}
+#empresa{position: relative;margin-top: -497px;color: #333;text-align: justify;}
+#seguranca {position:relative;margin-top: -497px;margin-left: 17px;color:#333; text-align:justify } 
+#imgseguranca {text-align:center; padding-top:0px}
+#principios {position:relative; text-align:justify}
+
+#home {position:relative; margin-top: -15px;text-align:center;}
+#home td {width: 319px; border-right:1px groove #eee; border-bottom:1px groove #eee; color:#999;height:300px;}
+#home td h3{margin-top: 10px; font-size: 18px}
+#home td:hover {background:#666 url(images/pattern.png);color:#FFF;}
+#home td div {display:none; line-height:25px; margin-left:10px; margin-right:10px;}
+#home td:hover div {display:block}
+#home td p {font-size:18px; padding-top:5px; padding-bottom:5px;}
+#home a {color:yellow; text-decoration:none; font-size:19px;}
+#home a:hover {color:lightblue;}
+
+.footer{text-align: center;padding: 5px 0;background: #333;color: #fff;}
+
+.alert {background: #fff6bf url(images/ico_alert.png) center no-repeat;
+background-position: 15px 50%; text-align: left;padding: 5px 20px 5px 45px;
+border-top: 2px solid #ffd324;border-bottom: 2px solid #ffd324;}
+
+#galeria{position:relative;width:100%;height:150px;margin-top:-1px;overflow:hidden;}
+
+.cent_form {padding-left:20px; background:#EAEAEA; padding-top:15px; padding-bottom:15px; }
+#globo {position:absolute;left:0px; top:-0%;padding:4px;color:#333; text-align:justify; }
+#gallery{background:none; padding-top:55px;  padding: 0px;}
+#gallery ul{ list-style: none;}
+#gallery ul li{display: inline;}
+#gallery ul img{border: 5px solid #eee;border-width: 5px 5px 5px;}
+#gallery ul a:hover img{border: 5px solid lightblue; border-width: 5px 5px 5px;color: #fff;opacity:0.65;
+   -moz-opacity: 0.65; -webkit-opacity: 0.65;}
+#gallery ul a:hover {color: #FFF;}
